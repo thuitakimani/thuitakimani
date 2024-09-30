@@ -1,0 +1,113 @@
+
+<style>
+
+body {
+    background:rgb(63, 56, 56) ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: centre;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: black;
+    color: rgb(134, 190, 241);
+}
+h2{
+    color: rgb(14, 27, 14);
+}
+
+.login-container button{
+    width: 100% 100%; /* Full width button */
+    padding: 20px 20px 20px 20px; /* Padding inside the button */
+    background-color: #4d0f29; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for text */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Button hover effect */
+.login-container button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Optional link for "forgot password" or "sign up" */
+.login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 400px; /* Max width of the container */
+    margin-bottom: 20px; /* Add space between multiple containers */
+    margin-right: 20px; /* Adds spacing to the right side */
+    color: #28a745; /* Green text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for link */
+.login-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+button{
+    background-color: rgb(43, 40, 40);
+    border: none;
+    color: azure;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+header{
+    background: black;
+    padding: 20px 40px 10px 50px;
+}
+section div{
+    background: white;
+    color: rgb(196, 190, 190);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 1px;
+}
+div{
+    background: rgb(75, 49, 49);
+   margin: auto;
+    width:100px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+section.feature-box.lower section {
+    background: white;
+    color: rgb(82, 36, 36);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    background: black;
+    padding: 10px 20px;
+}
+
+</style>
